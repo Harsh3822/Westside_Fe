@@ -2,19 +2,38 @@
 
 A fully responsive and interactive **Westside** fashion e-commerce website clone built using **React.js**, **HTML**, **CSS**, and **JavaScript**. This project replicates core functionalities of a modern online shopping platform, offering a seamless user experience and clean UI.
 
-## 🚀 Live Demo
-
-🔗 [Click Here to View Live](https://westside-fe-delta.vercel.app/)
+🌐 Live Demo: https://westside-fe-delta.vercel.app/
 
 ---
 
-## 📸 Screenshots
+📸 UI Screenshots
 
-![Homepage](./screenshots/homepage.png)
-![Product Page](./screenshots/product-page.png)
-![Cart-Page](https://github.com/user-attachments/assets/c1d32cb7-6f5b-4e27-ad15-73710b627f67)
+🏠 Home Page Design  
+![Home-Page](https://github.com/user-attachments/assets/7131109c-2762-4aef-92a4-15405db58a1a)
 
-> 💡 *You can add your own screenshots in a `/screenshots` folder and update these paths.*
+
+🧑‍🏫 Product Section  
+![Product-Page](https://github.com/user-attachments/assets/b3ce7abd-4fc1-46e1-89e0-f24d23147710)
+
+
+
+📩 About Product description
+![Product-description](https://github.com/user-attachments/assets/effaf042-340a-4dec-8cce-89a2f3f93fd0)
+
+
+
+📱 Mobile Responsive View  
+![Mobile-View](https://github.com/user-attachments/assets/04c58fa9-c75e-4aa2-ae2c-4149b4ae3262)
+
+
+🛒 Cart-Page 
+![Cart-Page](https://github.com/user-attachments/assets/ee7f5b42-1e8e-4763-955f-27e7a4b3f820)
+
+
+
+📞 Contact & Footer Area     
+![Contact   Footer](https://github.com/user-attachments/assets/1a428825-e508-4768-886c-26d8af4766b8)
+
 
 ---
 
@@ -38,7 +57,52 @@ A fully responsive and interactive **Westside** fashion e-commerce website clone
 - 🚫 Empty cart handling with fallback message  
 - ⚠️ Error and loading states handled gracefully
 
----
 
+---
 ## 🧩 Folder Structure
 
+westside-clone/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── App.js
+│ ├── index.js
+│ └── styles/
+├── package.json
+└── README.md
+
+
+---
+
+🚀 How to Run
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/westside-clone.git
+
+# 2. Navigate to project folder
+cd westside-clone
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm start
+
+---
+🌐 Backend API (Optional - for json-server)
+bash
+Copy
+Edit
+# Install json-server
+npm install -g json-server
+
+# Start the server
+json-server --watch db.json --port 5000
